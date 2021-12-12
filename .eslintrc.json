@@ -1,0 +1,25 @@
+{
+  "env": {
+    "browser": true,
+    "es2021": true,
+    "node": true
+  },
+  "extends": ["eslint:recommended", "plugin:react/recommended","plugin:cypress/recommended"],
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": 12,
+    "sourceType": "module"
+  },
+  "plugins": ["react","cypress"],
+  "rules": {
+    "no-sparse-arrays": 0,
+    "react/prop-types": 1,
+    "react/display-name": 0,
+    "no-useless-escape": 0,
+    "no-useless-catch": 1,
+    "react/no-unescaped-entities": 1,
+    "no-console": 2
+  }
+}

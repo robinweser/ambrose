@@ -1,0 +1,171 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Text /> renders correctly when aligned 1`] = `
+".cls_0 {
+  display: contents;
+}
+.cls_1 {
+  font-size: 12px;
+  margin: 0;
+  display: block;
+  color: black;
+  text-align: right;
+}
+
+
+<div className=test-theme cls_0>
+  <div className=cls_1>Children</div>
+</div>;
+"
+`;
+
+exports[`<Text /> renders correctly when nested 1`] = `
+".cls_0 {
+  display: contents;
+}
+.cls_1 {
+  font-size: 12px;
+  margin: 0;
+  display: block;
+  color: black;
+}
+.cls_2 {
+  font-size: 12px;
+  font-weight: 700;
+  margin: 0;
+  color: black;
+}
+
+
+<div className=test-theme cls_0>
+  <div className=cls_1>
+    Nested <span className=cls_2>Children</span>
+  </div>
+</div>;
+"
+`;
+
+exports[`<Text /> renders correctly when nesting colosr 1`] = `
+".cls_0 {
+  display: contents;
+}
+.cls_1 {
+  font-size: 12px;
+  margin: 0;
+  display: block;
+  color: primary;
+}
+.cls_2 {
+  font-size: 12px;
+  font-weight: 700;
+  margin: 0;
+  color: primary;
+}
+
+
+<div className=test-theme cls_0>
+  <div className=cls_1>
+    Nested <span className=cls_2>Children</span>
+  </div>
+</div>;
+"
+`;
+
+exports[`<Text /> renders correctly when transformed 1`] = `
+".cls_0 {
+  display: contents;
+}
+.cls_1 {
+  font-size: 12px;
+  margin: 0;
+  display: block;
+  color: black;
+}
+.cls_2 {
+  font-size: 12px;
+  margin: 0;
+  color: black;
+  text-transform: uppercase;
+}
+
+
+<div className=test-theme cls_0>
+  <div className=cls_1>
+    Nested <span className=cls_2>children</span>
+  </div>
+</div>;
+"
+`;
+
+exports[`<Text /> renders correctly with color 1`] = `
+".cls_0 {
+  display: contents;
+}
+.cls_1 {
+  font-size: 12px;
+  margin: 0;
+  display: block;
+  color: green;
+}
+
+
+<div className=test-theme cls_0>
+  <div className=cls_1>Children</div>
+</div>;
+"
+`;
+
+exports[`<Text /> renders correctly with default props 1`] = `
+".cls_0 {
+  display: contents;
+}
+.cls_1 {
+  font-size: 12px;
+  margin: 0;
+  display: block;
+  color: black;
+}
+
+
+<div className=test-theme cls_0>
+  <div className=cls_1>Children</div>
+</div>;
+"
+`;
+
+exports[`<Text /> renders correctly with substyle 1`] = `
+".cls_0 {
+  display: contents;
+}
+.cls_1 {
+  font-size: 12px;
+  font-weight: 700;
+  margin: 0;
+  display: block;
+  color: black;
+}
+
+
+<div className=test-theme cls_0>
+  <div className=cls_1>Children</div>
+</div>;
+"
+`;
+
+exports[`<Text /> renders correctly with variant 1`] = `
+".cls_0 {
+  display: contents;
+}
+.cls_1 {
+  font-size: 20px;
+  margin: 0;
+  display: block;
+  color: black;
+}
+
+
+<div className=test-theme cls_0>
+  <div className=cls_1>Children</div>
+</div>;
+"
+`;

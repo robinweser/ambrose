@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CarouselItem /> renders correctly with default props 1`] = `
+".cls_0 {
+  display: contents;
+}
+.cls_1 {
+  box-sizing: border-box;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: auto;
+  align-items: stretch;
+  display: flex;
+  max-width: 250%;
+  width: 90%;
+  scroll-snap-align: center;
+}
+@media (min-width: 1024px) {
+  .cls_1 {
+    max-width: unset;
+    width: auto;
+  }
+}
+
+
+<div className=test-theme cls_0>
+  <div className=cls_1>Hello</div>
+</div>;
+"
+`;

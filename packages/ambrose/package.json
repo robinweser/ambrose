@@ -1,0 +1,75 @@
+{
+  "name": "ambrose",
+  "version": "0.0.1",
+  "main": "lib/index.js",
+  "module": "es/index.js",
+  "sideEffects": false,
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "lib/**",
+    "es/**",
+    "src/**"
+  ],
+  "browserslist": [
+    "IE >= 11",
+    "Firefox >= 60",
+    "Safari >= 11.1",
+    "Chrome >= 66",
+    "ChromeAndroid >= 66",
+    "iOS >= 11.3",
+    "Edge >= 15"
+  ],
+  "scripts": {
+    "clean": "rimraf lib es coverage",
+    "setup": "yarn build",
+    "build": "yarn clean && yarn build:package",
+    "build:package": "yarn build:es && yarn build:lib",
+    "build:es": "babel src --out-dir es --ignore \"src/__tests__\" --copy-files",
+    "build:lib": "cross-env BABEL_ENV=commonjs babel src --out-dir lib --ignore \"src/__tests__\" --copy-files",
+    "watch": "npm run watch:lib & npm run watch:es",
+    "watch:lib": "BABEL_ENV=commonjs babel src -d lib -w",
+    "watch:es": "babel src -d es -w",
+    "test": "jest --config=jest.config.js",
+    "coverage": "yarn test --coverage",
+    "release": "yarn build && yarn test && npm publish"
+  },
+  "dependencies": {
+    "kilvin": "^3.0.1",
+    "prop-types": "^15.7.2",
+    "small-date": "^1.0.2"
+  },
+  "peerDependencies": {
+    "fela": "^11.5.1",
+    "react": "^17.0.0",
+    "react-dom": "^17.0.0",
+    "react-fela": "^11.5.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.2.0",
+    "@babel/core": "^7.2.2",
+    "@babel/node": "^7.13.0",
+    "@babel/plugin-transform-modules-commonjs": "^7.5.0",
+    "@babel/polyfill": "^7.7.0",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/preset-react": "^7.0.0",
+    "@svgr/cli": "^5.5.0",
+    "babel-core": "7.0.0-bridge.0",
+    "babel-jest": "^27.0.2",
+    "cross-env": "^6.0.3",
+    "fela": "^11.7.0",
+    "fela-monolithic": "^11.7.0",
+    "fela-plugin-responsive-value": "^11.7.0",
+    "fela-plugin-theme-value": "^11.7.0",
+    "fela-preset-web": "^11.7.0",
+    "fela-sort-media-query-mobile-first": "^11.7.0",
+    "jest": "^26.6.0",
+    "jest-react-fela": "^11.7.0",
+    "jsdom": "^16.6.0",
+    "react": "^17.0.0",
+    "react-dom": "^17.0.0",
+    "react-fela": "^11.7.0",
+    "rimraf": "^3.0.0"
+  }
+}

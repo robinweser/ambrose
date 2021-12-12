@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<DateTime /> renders correctly when nested 1`] = `
+".cls_0 {
+  display: contents;
+}
+.cls_1 {
+  font-size: 20px;
+  margin: 0;
+  display: block;
+  color: black;
+}
+
+
+<div className=test-theme cls_0>
+  <div className=cls_1>15 februari 2021</div>
+</div>;
+"
+`;
+
+exports[`<DateTime /> renders correctly with default props 1`] = `
+".cls_0 {
+  display: contents;
+}
+
+
+<div className=test-theme cls_0>15 februari 2021</div>;
+"
+`;

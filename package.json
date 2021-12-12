@@ -1,0 +1,27 @@
+{
+  "private": true,
+  "name": "ambrose",
+  "description": "Packages for ambrose",
+  "repository": "https://github.com/robinweser/ambrose.git",
+  "scripts": {
+    "build": "yarn workspaces run build",
+    "format": "prettier --write \"**/*.js\"",
+    "test": "yarn workspaces run test",
+    "check": "yarn run test && yarn lint",
+    "lint": "eslint packages apps --quiet"
+  },
+  "workspaces": [
+    "packages/*",
+    "examples/*"
+  ],
+  "devDependencies": {
+    "eslint": "^7.22.0",
+    "eslint-plugin-cypress": "^2.11.2",
+    "eslint-plugin-jest": "^24.3.2",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-react": "^7.22.0",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "prettier": "^2.2.1",
+    "rimraf": "^3.0.2"
+  }
+}

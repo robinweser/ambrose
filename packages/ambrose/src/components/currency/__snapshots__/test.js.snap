@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Currency /> renders correctly when nested 1`] = `
+".cls_0 {
+  display: contents;
+}
+.cls_1 {
+  font-size: 20px;
+  margin: 0;
+  display: block;
+  color: black;
+}
+
+
+<div className=test-theme cls_0>
+  <div className=cls_1>4&nbsp;000,5 kr</div>
+</div>;
+"
+`;
+
+exports[`<Currency /> renders correctly with default props 1`] = `
+".cls_0 {
+  display: contents;
+}
+
+
+<div className=test-theme cls_0>4&nbsp;000,5 kr</div>;
+"
+`;

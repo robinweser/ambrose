@@ -1,0 +1,6 @@
+**/lib/**
+**/es/**
+**/build/**
+*.config.js
+**/test.js
+packages/flora/src/components/icons/js/**

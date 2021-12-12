@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Overlay /> renders correctly with visible false 1`] = `
+".cls_0 {
+  display: contents;
+}
+
+
+<div className=test-theme cls_0 />;
+"
+`;
+
+exports[`<Overlay /> renders correctly with visible true 1`] = `
+".cls_0 {
+  display: contents;
+}
+.cls_1 {
+  box-sizing: border-box;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: auto;
+  align-items: stretch;
+  display: flex;
+  max-height: 100%;
+  padding-left: env(safe-area-inset-left);
+  padding-right: env(safe-area-inset-right);
+  padding-bottom: env(safe-area-inset-bottom);
+  padding-top: env(safe-area-inset-top);
+  background-color: grey100;
+  position: fixed;
+  overflow-y: auto;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+
+<div className=test-theme cls_0>
+  <div className=cls_1>Children</div>
+</div>;
+"
+`;

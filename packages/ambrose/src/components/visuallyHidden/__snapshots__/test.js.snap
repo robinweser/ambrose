@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<VisuallyHidden /> renders correctly with default props 1`] = `
+".cls_0 {
+  display: contents;
+}
+.cls_1 {
+  clip: rect(1px, 1px, 1px, 1px);
+  -webkit-clip-path: inset(50%);
+  clip-path: inset(50%);
+  position: absolute;
+  overflow: hidden;
+  white-space: nowrap;
+  border: 0;
+  padding: 0;
+  height: 1px;
+  width: 1px;
+}
+
+
+<div className=test-theme cls_0>
+  <div className=cls_1>Children</div>
+</div>;
+"
+`;

@@ -1,0 +1,94 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Box /> renders correctly with backgroundColor 1`] = `
+".cls_0 {
+  display: contents;
+}
+.cls_1 {
+  box-sizing: border-box;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: auto;
+  align-items: stretch;
+  display: flex;
+  background-color: lightgrey;
+}
+
+
+<div className=test-theme cls_0>
+  <div className=cls_1>Children</div>
+</div>;
+"
+`;
+
+exports[`<Box /> renders correctly with default props 1`] = `
+".cls_0 {
+  display: contents;
+}
+.cls_1 {
+  box-sizing: border-box;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: auto;
+  align-items: stretch;
+  display: flex;
+}
+
+
+<div className=test-theme cls_0>
+  <div className=cls_1>Children</div>
+</div>;
+"
+`;
+
+exports[`<Box /> renders correctly with paddingHorizontal 1`] = `
+".cls_0 {
+  display: contents;
+}
+.cls_1 {
+  box-sizing: border-box;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: auto;
+  align-items: stretch;
+  display: flex;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+
+<div className=test-theme cls_0>
+  <div className=cls_1>Children</div>
+</div>;
+"
+`;
+
+exports[`<Box /> renders correctly with paddingVertical 1`] = `
+".cls_0 {
+  display: contents;
+}
+.cls_1 {
+  box-sizing: border-box;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: auto;
+  align-items: stretch;
+  display: flex;
+  padding-bottom: 40px;
+  padding-top: 40px;
+}
+
+
+<div className=test-theme cls_0>
+  <div className=cls_1>Children</div>
+</div>;
+"
+`;

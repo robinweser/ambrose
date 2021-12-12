@@ -1,0 +1,81 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Carousel /> renders correctly with default props 1`] = `
+".cls_0 {
+  display: contents;
+}
+.cls_1 {
+  box-sizing: border-box;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: auto;
+  align-items: stretch;
+  display: flex;
+  padding-right: 0;
+  overflow-x: auto;
+  scroll-padding: NaNpx;
+  scroll-snap-type: x mandatory;
+}
+.cls_2 {
+  box-sizing: border-box;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: auto;
+  align-items: stretch;
+  display: contents;
+}
+.cls_3 {
+  box-sizing: border-box;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: auto;
+  align-items: stretch;
+  display: flex;
+  width: NaNpx;
+}
+@media (min-width: 560px) {
+  .cls_1 {
+    scroll-padding: NaNpx;
+  }
+  .cls_3 {
+    width: NaNpx;
+  }
+}
+@media (min-width: 800px) {
+  .cls_1 {
+    scroll-padding: NaNpx;
+  }
+  .cls_3 {
+    width: NaNpx;
+  }
+}
+@media (min-width: 1024px) {
+  .cls_1 {
+    margin-left: 0;
+    marign-right: 0;
+    display: grid;
+    grid-gap: 16px;
+    grid-template-columns: repeat(3, 1fr);
+    scroll-padding: NaNpx;
+  }
+  .cls_3 {
+    display: none;
+    width: NaNpx;
+  }
+}
+
+
+<div className=test-theme cls_0>
+  <div className=cls_1>
+    <div className=cls_2 />
+    <div className=cls_3 />
+  </div>
+</div>;
+"
+`;

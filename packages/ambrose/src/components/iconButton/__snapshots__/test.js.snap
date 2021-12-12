@@ -1,0 +1,121 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<IconButton /> renders correctly with default props 1`] = `
+".cls_0 {
+  display: contents;
+}
+.cls_1::-moz-focus-inner {
+  border-width: 0;
+  padding: 0;
+}
+.cls_1 {
+  box-sizing: border-box;
+  background-color: unset;
+  background-image: unset;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  text-align: left;
+  cursor: pointer;
+  appearance: none;
+  touch-action: manipulation;
+  color: inherit;
+  background: transparent;
+  width: 50px;
+  height: 50px;
+  font: inherit;
+}
+.cls_2 {
+  box-sizing: border-box;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: auto;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.cls_3 {
+  clip: rect(1px, 1px, 1px, 1px);
+  -webkit-clip-path: inset(50%);
+  clip-path: inset(50%);
+  position: absolute;
+  overflow: hidden;
+  white-space: nowrap;
+  border: 0;
+  padding: 0;
+  height: 1px;
+  width: 1px;
+}
+.cls_1:focus:not(:focus-visible) {
+  box-shadow: none;
+}
+.cls_1:focus {
+  outline: 0;
+}
+.cls_1:active {
+  color: inherit;
+}
+
+
+<div className=test-theme cls_0>
+  <button className=cls_1 type=button>
+    <div title=Icon button role=presentation className=cls_2>
+      <svg
+        size={16}
+        color=foreground.primary
+        aria-hidden=true
+        focusable=false
+      />
+      <div className=cls_3>Icon button</div>
+    </div>
+  </button>
+</div>;
+"
+`;
+
+exports[`<IconButton /> renders correctly with href 1`] = `
+".cls_0 {
+  display: contents;
+}
+.cls_1 {
+  box-sizing: border-box;
+  text-decoration: none;
+  color: inherit;
+  display: flex;
+  width: 50px;
+  height: 50px;
+  align-items: center;
+  justify-content: center;
+}
+.cls_2 {
+  clip: rect(1px, 1px, 1px, 1px);
+  -webkit-clip-path: inset(50%);
+  clip-path: inset(50%);
+  position: absolute;
+  overflow: hidden;
+  white-space: nowrap;
+  border: 0;
+  padding: 0;
+  height: 1px;
+  width: 1px;
+}
+.cls_1:active {
+  color: inherit;
+}
+
+
+<div className=test-theme cls_0>
+  <a className=cls_1 title=Icon button href=/>
+    <svg
+      size={16}
+      color=foreground.primary
+      aria-hidden=true
+      focusable=false
+    />
+    <div className=cls_2>Icon button</div>
+  </a>
+</div>;
+"
+`;

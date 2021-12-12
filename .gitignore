@@ -1,0 +1,48 @@
+# OS or Editor files
+._*
+.DS_Store
+Thumbs.db
+
+# Files that might appear on external disks
+.Spotlight-V100
+.Trashes
+
+# Always-ignore extensions
+*~
+*.diff
+*.err
+*.log
+*.orig
+*.pyc
+*.rej
+*.vsix
+
+*.sass-cache
+*.sw?
+*.vi
+
+packages/playroom/out
+packages/flora/public/build
+packages/flora/public/index.html
+packages/flora/src/components/icons/js
+packages/flora/src/components/icons/index.js
+packages/flora/src/components/illustrations/js
+packages/flora/src/components/illustrations/index.js
+
+
+# We are using YARN.
+package-lock.json
+
+.cache
+.env
+.env.local
+.merlin
+node_modules
+es
+lib
+coverage
+dist
+.next
+.vercel
+out
+.vscode
