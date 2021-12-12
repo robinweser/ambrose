@@ -1,8 +1,6 @@
 // core & styling
-import getStyleRenderer from './styling/getStyleRenderer'
-import renderToNodeList from './styling/renderToNodeList'
 import StyleProvider from './styling/StyleProvider'
-import ThemeProvider from './styling/ThemeProvider'
+import ThemeProvider from './theming/ThemeProvider'
 import ConfigProvider from './config/ConfigProvider'
 
 // components

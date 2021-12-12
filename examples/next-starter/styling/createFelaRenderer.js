@@ -31,7 +31,7 @@ const getResponsiveMediaQueries = (values, props) => {
 
 const [extend, embedded, prefixer, fallbackValue, unit] = plugins
 
-export default function getStyleRenderer() {
+export default function createStyleRenderer() {
   const renderer = createRenderer({
     optimizeCaching: true,
     enhancers: [sortMediaQueryMobileFirst(), enforceLonghands()],
